@@ -4,31 +4,30 @@ import customer3Image from './assets/customer3.jpg';
 import customer4Image from './assets/customer4.jpg';
 import './Testimonials.css';
 import TestimonialCard from './TestimonialCard';
-
 const customers = [
   {
-    fullName: 'Maria Sanchez',
+    fullName: 'Natasha Romanoff',
     image: customer1Image,
     rating: [1, 1, 1, 1, 0.5],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Antony Clifton',
+    fullName: 'Tony Stark',
     image: customer2Image,
     rating: [1, 1, 1, 1, 1],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Tamika Jackson',
+    fullName: 'Peter Parker',
     image: customer3Image,
     rating: [1, 1, 1, 1, 0.5],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Brandon Ming',
+    fullName: 'Matt Murdock',
     image: customer4Image,
     rating: [1, 1, 1, 1],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 

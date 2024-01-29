@@ -9,7 +9,9 @@ const ratingLevels = { '0.5': faStarHalfStroke, '1': faStar, };
 
 const TestimonialCard = ({ customer }) => {
   return (
+    <div className='carousel'>
     <article className="testimonial-card">
+   
       <img src={customer.image} alt={customer.fullName} />
       <h4>{customer.fullName}</h4>
       <span>
@@ -22,7 +24,9 @@ const TestimonialCard = ({ customer }) => {
         )}
       </span>
       <blockquote><p>"{customer.says}"</p></blockquote>
+      
     </article>
+    </div>
   );
 };
 

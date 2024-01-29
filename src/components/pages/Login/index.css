@@ -1,0 +1,34 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Ajusta a altura para ocupar a tela inteira */
+}
+
+.icon {
+  margin-bottom: 20px; /* Aumenta o espaçamento abaixo dos ícones */
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 250px; /* Define a largura dos campos de input */
+}
+
+button {
+  background-color: #495E57;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 250px; /* Define a largura do botão */
+}
+.bookings h2 {
+  padding: 1.875rem 0 1.875rem 0;
+  background-color: #495E57;
+  color: #FFFFFF;
+  text-align: center;
+}

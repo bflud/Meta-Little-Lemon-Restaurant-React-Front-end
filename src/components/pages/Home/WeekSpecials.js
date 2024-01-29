@@ -35,10 +35,8 @@ const WeekSpecials = () => {
   return (
     <section className="container grid week-specials">
       <div className="week-specials-header">
-        <h2>This week specials!</h2>
-        <Link className="button-primary" to={pages.get('orderOnline').path}>
-          Online Menu
-        </Link>
+        <h2>This week specials!🍴</h2>
+
       </div>
       {meals.map((meal, index) => 
         <MealCard key={index} meal={meal} />
